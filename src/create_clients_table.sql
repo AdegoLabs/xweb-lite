@@ -1,0 +1,1 @@
+CREATE TABLE `application`.`clients` ( `id` INT NOT NULL AUTO_INCREMENT , `profileId` INT NOT NULL DEFAULT '1' , `command` TEXT NOT NULL , `pid` INT NOT NULL , `status` BOOLEAN NOT NULL , `message` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
